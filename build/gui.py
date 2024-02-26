@@ -61,7 +61,9 @@ button_2 = Button(
     borderwidth=0,
     highlightthickness=0,
     command=lambda: print("button_2 clicked"),
-    relief="flat"
+    relief="flat",
+    activebackground= "#000",
+    bg="#000"
 )
 button_2.place(
     x=221.0,
@@ -77,7 +79,9 @@ button_3 = Button(
     borderwidth=0,
     highlightthickness=0,
     command=lambda: print("button_3 clicked"),
-    relief="flat"
+    relief="flat",
+    activebackground= "#000",
+    bg="#000"
 )
 button_3.place(
     x=220.0,
@@ -93,7 +97,9 @@ button_4 = Button(
     borderwidth=0,
     highlightthickness=0,
     command=lambda: print("button_4 clicked"),
-    relief="flat"
+    relief="flat",
+    activebackground= "#000",
+    bg="#000"
 )
 button_4.place(
     x=222.0,
